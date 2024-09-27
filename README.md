@@ -19,7 +19,9 @@
 
    ((git push origin master ( 절대 해서는 안됨 ) # 마스터라는 최종 브랜치에 넣겠다는 의미
    -> 나를 위한 공간에 넣어줌))
+   
    git checkout -b "공간이름"
+   
    git push origin "공간이름"
    
    
