@@ -11,7 +11,8 @@
    cd "설정한 폴더 이름"
    code . 
 -> vscode가 열릴것임
-4. 프로젝트 수행한것 올리기
+   
+5. 프로젝트 수행한것 올리기
    vs code 터미널에서 
    
    git add .
@@ -23,5 +24,22 @@
    git checkout -b "공간이름"
    
    git push origin "공간이름"
+
+4-1. 마스터의 코드 동기화 
+   마스터가 수정한 코드 날라가지않게 저장 
+   git add .
+   git commit -m "~~commit"
+
+
+   git push 는 안하고
+   git pull origin master
+
+   -> 마스터 브랜치로부터 동기화됨 
+
+   
+   
+
+
+   
    
    
